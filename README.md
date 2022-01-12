@@ -10,18 +10,12 @@ This code takes an input file "seedname_hr.dat", which is the output file of Wan
 You are expected to change other parameters in the code as well. An example for Li2CO3 are shown below:
 
 &ensp;&ensp;&ensp;&ensp;startEint, endEint = -10, 15 # energies are in unit of eV <br />
-&ensp;&ensp;&ensp;&ensp;startEloss, endEloss, step = 0, 25, 200
-
-&ensp;&ensp;&ensp;&ensp;nbands = 34 # needs to be consistent with the number of bands in the "_hr.dat" file
-
-&ensp;&ensp;&ensp;&ensp;nele_per_unit_cell = 18 # 18 spinless electron in one unit cell
-
-&ensp;&ensp;&ensp;&ensp;a = 0.1 #  final state lifetime 
-
-&ensp;&ensp;&ensp;&ensp;b = 0.25 # intermediate state lifetime
-
-&ensp;&ensp;&ensp;&ensp;Uc = 2.5 # core hole potential in unit of eV
-
-&ensp;&ensp;&ensp;&ensp;seedname = "Li2CO3" # needs to be consistent with "_hr.dat" file
+&ensp;&ensp;&ensp;&ensp;startEloss, endEloss, step = 0, 25, 200 <br />
+&ensp;&ensp;&ensp;&ensp;nbands = 34 # needs to be consistent with the number of bands in the "_hr.dat" file <br />
+&ensp;&ensp;&ensp;&ensp;nele_per_unit_cell = 18 # 18 spinless electron in one unit cell <br />
+&ensp;&ensp;&ensp;&ensp;a = 0.1 #  final state lifetime  <br />
+&ensp;&ensp;&ensp;&ensp;b = 0.25 # intermediate state lifetime <br />
+&ensp;&ensp;&ensp;&ensp;Uc = 2.5 # core hole potential in unit of eV <br />
+&ensp;&ensp;&ensp;&ensp;seedname = "Li2CO3" # needs to be consistent with "_hr.dat" file <br />
 
 The output files include a RIXS datafile and a RIXS image.
