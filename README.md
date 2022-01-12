@@ -14,7 +14,7 @@ You are expected to change other parameters in the code as well. An example for 
 &ensp;&ensp;&ensp;&ensp;nbands = 34 # needs to be consistent with the number of bands in the "_hr.dat" file <br />
 &ensp;&ensp;&ensp;&ensp;nele_per_unit_cell = 18 # 18 spinless electron in one unit cell <br />
 &ensp;&ensp;&ensp;&ensp;a = 0.1 #  final state lifetime  <br />
-&ensp;&ensp;&ensp;&ensp;b = 0.25 # intermediate state lifetime <br />
+&ensp;&ensp;&ensp;&ensp;b = 0.25 # intermediate state or core-hole lifetime <br />
 &ensp;&ensp;&ensp;&ensp;Uc = 2.5 # core hole potential in unit of eV <br />
 &ensp;&ensp;&ensp;&ensp;seedname = "Li2CO3" # needs to be consistent with "_hr.dat" file <br />
 
