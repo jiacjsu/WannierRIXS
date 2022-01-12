@@ -5,7 +5,7 @@ and a Slater determinant representation of the wavefunction. The algorithm and a
 ["A Wannier orbital based method for resonant inelastic x-ray scattering simulation", Chunjing Jia, J. Phys.: Conf. Ser. 1290 012014 (2019)](https://iopscience.iop.org/article/10.1088/1742-6596/1290/1/012014/meta)
 
 This code takes an input file "seedname_hr.dat", which is the output file of Wannier90 that consists of all tight-binding Hamiltonian parameters. 
-You are expected to change other parameters in the code. An example for Li2CO3 are shown below:
+You are expected to change other parameters in the code as well. An example for Li2CO3 are shown below:
 
 startEint, endEint = -10, 15 
 
