@@ -9,20 +9,20 @@ and a Slater determinant representation of the wavefunction. The algorithm and a
 This code takes an input file "seedname_hr.dat", which is the output file of Wannier90 that consists of all tight-binding Hamiltonian parameters. 
 You are expected to change other parameters in the code as well. An example for Li2CO3 are shown below:
 
-&ensp;startEint, endEint = -10, 15 # energies are in unit of eV
+&ensp;&ensp;&ensp;&ensp;startEint, endEint = -10, 15 # energies are in unit of eV
 
-startEloss, endEloss, step = 0, 25, 200
+&ensp;&ensp;&ensp;&ensp;startEloss, endEloss, step = 0, 25, 200
 
-nbands = 34 # needs to be consistent with the number of bands in the "_hr.dat" file
+&ensp;&ensp;&ensp;&ensp;nbands = 34 # needs to be consistent with the number of bands in the "_hr.dat" file
 
-nele_per_unit_cell = 18 # 18 spinless electron in one unit cell
+&ensp;&ensp;&ensp;&ensp;nele_per_unit_cell = 18 # 18 spinless electron in one unit cell
 
-a = 0.1 #  final state lifetime 
+&ensp;&ensp;&ensp;&ensp;a = 0.1 #  final state lifetime 
 
-b = 0.25 # intermediate state lifetime
+&ensp;&ensp;&ensp;&ensp;b = 0.25 # intermediate state lifetime
 
-Uc = 2.5 # core hole potential in unit of eV
+&ensp;&ensp;&ensp;&ensp;Uc = 2.5 # core hole potential in unit of eV
 
-seedname = "Li2CO3" # needs to be consistent with "_hr.dat" file
+&ensp;&ensp;&ensp;&ensp;seedname = "Li2CO3" # needs to be consistent with "_hr.dat" file
 
 The output files include a RIXS datafile and a RIXS image.
