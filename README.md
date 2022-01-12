@@ -8,6 +8,7 @@ This code takes an input file "seedname_hr.dat", which is the output file of Wan
 You are expected to change other parameters in the code. An example for Li2CO3 are shown below:
 
 startEint, endEint = -10, 15 
+
 startEloss, endEloss, step = 0, 25, 200
 
 nbands = 34 # needs to be consistent with the number of bands in the "_hr.dat" file
