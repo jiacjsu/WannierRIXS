@@ -9,7 +9,7 @@ and a Slater determinant representation of the wavefunction. The algorithm and a
 This code takes an input file "seedname_hr.dat", which is the output file of Wannier90 that consists of all tight-binding Hamiltonian parameters. 
 You are expected to change other parameters in the code as well. An example for Li2CO3 are shown below:
 
-startEint, endEint = -10, 15 
+startEint, endEint = -10, 15 # energies are in unit of eV
 
 startEloss, endEloss, step = 0, 25, 200
 
